@@ -5,4 +5,5 @@ python:
     - 3.4
     - pypy
     - pypy3
+    - asdfasdf
 script: py.test adder/lib.py
