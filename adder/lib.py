@@ -2,7 +2,7 @@ import unittest
 
 
 def add(a, b):
-    return a - b
+    return a + b
 
 
 class TestAdd(unittest.TestCase):
