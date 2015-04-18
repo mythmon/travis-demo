@@ -6,4 +6,8 @@ python:
     - pypy
     - pypy3
     - asdfasdf
+matrix:
+    allow_failures:
+        - python: asdfasdf
+    fast_finish: true
 script: py.test adder/lib.py
